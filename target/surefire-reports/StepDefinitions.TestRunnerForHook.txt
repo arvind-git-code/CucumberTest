@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunnerForHook
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 26.05 s <<< FAILURE! -- in StepDefinitions.TestRunnerForHook
+Test login using hooks.Test the home page -- Time elapsed: 8.921 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'the page is open' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("the page is open")
+public void the_page_is_open() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("the user is able login")
+public void the_user_is_able_login() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

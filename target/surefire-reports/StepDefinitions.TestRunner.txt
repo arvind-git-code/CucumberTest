@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: StepDefinitions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 44.80 s <<< FAILURE! -- in StepDefinitions.TestRunner
+test the multiple user login.Check if login is heappening with gievn data #2 -- Time elapsed: 1.879 s <<< ERROR!
+java.lang.IllegalStateException: this user is locked
+	at pageFactoryPackage.UserLogin_PF.login_check_PF(UserLogin_PF.java:74)
+	at StepDefinitions.PageFactoryLogin.user_is_navidate_to_home_page(PageFactoryLogin.java:44)
+	at ✽.user is navidate to home page(file:///C:/Users/arvin/eclipse-workspace/CucumberTest/src/test/resources/features/PageFactory.feature:8)
+
+feature to test login functionality.Check login is sucessful with valid credentials #2 -- Time elapsed: 4.937 s <<< ERROR!
+java.lang.IllegalStateException: this user is locked
+	at pages.ParameterloginaPOM.checkLogin(ParameterloginaPOM.java:41)
+	at StepDefinitions.ParameterLoginTestPOM.user_id_navigate_to_home_page(ParameterLoginTestPOM.java:58)
+	at ✽.user id navigate to home page(file:///C:/Users/arvin/eclipse-workspace/CucumberTest/src/test/resources/features/ParameterLogin.feature:7)
+
